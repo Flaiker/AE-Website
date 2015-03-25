@@ -54,7 +54,7 @@ nav {
     padding: 0;
     list-style-type: none;
     li {
-      display: inline-block;
+      display: table-cell;
       margin: 0;
       padding: 0;
       transition: background 0.2s linear;
@@ -76,6 +76,10 @@ nav {
     }
 
     li:hover {
+      background: $color_main_secondary_hover;
+    }
+
+    li.selected {
       background: $color_main_secondary_hover;
     }
 
